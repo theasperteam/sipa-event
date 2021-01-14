@@ -92,6 +92,14 @@ ol {
 	margin: 0;
 }
 
+.dbg{
+	background-color: #f9f2f0 !important;
+}
+
+.lbg{
+	background-color: #fff !important;
+}
+
 @media (min-width: 1200px) {
 	.container {
 		max-width: 1200px;
@@ -104,7 +112,7 @@ ol {
 
 .section-title {
 	text-align: center;
-	margin-bottom: 55px;
+	margin-bottom:15px;
 }
 
 .section-title img {
@@ -910,7 +918,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 	.hero-section {
-		min-height: 990px;
+		min-height: 800px;
+		height: 30%;
 	}
 }
 
@@ -1080,7 +1089,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media (max-width: 576px) {
 	.hs-item {
-		padding: 0 20px;
+		padding: 0px;
+	}
+
+	.site-logo img {
+		height: 5rem;
+		margin-top: -0.5rem;
 	}
 }
 
@@ -4466,3 +4480,48 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .carousel-card .card img{
 	border-radius: 20px 0px 0px 20px ;
 }
+
+.custom-underline {
+	position: relative;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+  }
+
+
+  .custom-underline,
+.custom-underline:hover,
+.custom-underline:focus,
+.custom-underline:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.custom-underline::after {
+  content: "";
+  position: absolute;
+}
+
+ .custom-underline::after {
+	top: 65%;
+	height: 0.5rem;
+	width: 30%;
+	left: 35%;
+	top: 5rem;
+	margin-bottom: 2rem;
+	background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .gallery{
+	  margin-top: 2.5rem;
+  }
+
+  .gallery img{
+	  margin-bottom: 1rem;
+  }
+
+  .ul{
+	  width: 25rem;
+	  margin-top: 1rem;
+  }
