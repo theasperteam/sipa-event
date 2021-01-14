@@ -123,8 +123,7 @@ ol {
 
 	font-weight: 600;
 	font-size: 40px;
-	font-family: "Montserrat", serif;
-	text-transform: uppercase;
+
 }
 
 .section-title p {
@@ -1102,7 +1101,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	text-transform: uppercase;
 	font-size: 50px;
 	color: #fff;
-	font-family: "Montserrat", serif;
+	
 	line-height: 1.3;
 	margin-bottom: 20px;
 }
@@ -1474,7 +1473,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .about-item .ai-text h4 {
 	font-weight: 500;
-	font-family: "Montserrat", serif;
+
 	margin-bottom: 15px;
 }
 
@@ -1579,7 +1578,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .classes-item h4 {
-	font-family: "Montserrat", serif;
+
 	font-weight: 500;
 	margin-bottom: 15px;
 }
@@ -1641,7 +1640,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .classes-item .ci-author h6 {
-	font-family: "Montserrat", serif;
+
 	font-weight: 500;
 }
 
@@ -1845,7 +1844,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .pc-item .pc-text h4 {
 	font-size: 20px;
 	font-weight: 500;
-	font-family: "Montserrat", serif;
+
 	margin-bottom: 15px;
 }
 
@@ -2037,7 +2036,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .trainer-item h4 {
 	font-weight: 500;
-	font-family: "Montserrat", serif;
+
 	margin-bottom: 10px;
 }
 
@@ -2184,7 +2183,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .review-item h4 {
 	font-weight: 500;
-	font-family: "Montserrat", serif;
+
 	font-weight: 500;
 	margin-bottom: 12px;
 }
@@ -2277,7 +2276,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .event-item .ei-text h4 {
 	font-weight: 500;
-	font-family: "Montserrat", serif;
+
 	margin-bottom: 15px;
 }
 
@@ -2444,7 +2443,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .pricing-item .pi-top h4 {
-	font-family: "Montserrat", serif;
+
 	color: #fff;
 	font-size: 22px;
 	font-weight: 500;
@@ -2538,7 +2537,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .singup-text h3 {
 	font-weight: 500;
-	font-family: "Montserrat", serif;
+
 	margin-bottom: 15px;
 }
 
@@ -2625,7 +2624,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .gs-item .gs-hover p {
 	font-size: 25px;
-	font-family: "Montserrat", serif;
+
 	color: #fff;
 	margin-bottom: 0;
 }
@@ -2946,7 +2945,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	display: inline-block;
 	padding: 0px 18px 5px;
 	font-size: 30px;
-	font-family: "Montserrat", serif;
+
 	color: #fff;
 	background: #f65d5d;
 	border-radius: 13px;
@@ -3250,7 +3249,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .about-instructor-widget h4 {
 	font-weight: 500;
-	font-family: "Montserrat", serif;
+
 	margin-bottom: 10px;
 }
 
@@ -3374,7 +3373,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .trainer-details .trainer-info h3 {
-	font-family: "Montserrat", serif;
+
 	margin-bottom: 15px;
 }
 
@@ -4524,4 +4523,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   .ul{
 	  width: 25rem;
 	  margin-top: 1rem;
+  }
+
+
+  .hrtop{
+	  border-top: 2px solid #fff;
+	  width: 5rem;
   }
